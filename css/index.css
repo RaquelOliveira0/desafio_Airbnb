@@ -1,0 +1,64 @@
+.navbar {
+  width: 100%;
+  background: rgb(255, 255, 255);
+  border-bottom: 0.2px solid #ECE9E6;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.btn-outline-secondary {
+  border-radius: 27px;
+  border-color: #ECE9E6;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12)
+}
+
+#footer {
+  border-top: 0.2px solid #ECE9E6;
+
+}
+
+.navbar li {
+  font-family: inherit;
+  font-size: 15px;
+  height: 600;
+  padding-right: 15px;
+  text-align: inherit;
+  font-weight: bold;
+
+}
+
+.navbar ul {
+  margin-left: 20%;
+
+}
+
+.logo {
+  margin-left: 50%;
+  height: 80px;
+  display: flex;
+  width: auto;
+}
+
+.card {
+  margin-top: 12%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2%;
+}
+
+.card-body {
+  padding-top: 18px;
+
+}
+
+.card-img-top {
+  margin-top: 35px;
+}
+
+#text {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+}

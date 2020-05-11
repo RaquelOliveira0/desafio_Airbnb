@@ -18,12 +18,14 @@ function cardData(data) {
 function renderCard(data) {
     const div = document.createElement("div");
     div.style.width = "20rem"
-    div.className = "card-body"
+    div.className = "card"
     div.innerHTML = `
      <img src="${data.photo}" class="card-img-top" />
-     <p class="card-text">${data.property_type}</p>
-     <h5 class="card-title">${data.name}</h5>
-     <p class="card-text"> R$ ${data.price}</p>
+     <ul class="list-group list-group-flush">
+     <li class="list-group-item">${data.property_type}</li>
+     <li class="list-group-item card-title">${data.name}</li>
+     <li class="list-group-item"> R$ ${data.price}</li>
+     </ul>
      `
     items.appendChild(div)
 }

@@ -39,20 +39,27 @@
 }
 
 .card {
-  margin-top: 12%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-bottom: 2%;
+  margin-left: 40px;
+  margin-bottom: 25px;
+
 }
 
 .card-body {
-  padding-top: 18px;
+  padding-top: 125px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
+}
+.card-title {
+  text-transform:uppercase;
+  font-weight: bold;
+ 
 }
 
 .card-img-top {
-  margin-top: 35px;
+  height: 270px;
 }
 
 #text {
